@@ -3,12 +3,12 @@ $user=$_POST['user'];
 $pass=$_POST['pass'];
 if ($user=='admin'&&$pass=='password') {
 	echo "<h2>
-		Login Sukses!
+		Login Anda Sukses!
 		</h2>";
 }
 else {
 	echo "<h2>
-		Login Gagal!
+		Login Anda Gagal!
 		</h2>";
 }
 ?>
